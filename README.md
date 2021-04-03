@@ -58,24 +58,24 @@
 ## Study Design: MechaCar vs Competition
 
 **What metric or metrics are you going to test?**
-city or highway fuel efficiency
-safety rating
+- City or highway fuel efficiency
+- Safety rating
 
 **What is the null hypothesis or alternative hypothesis?**
-City or highway fuel efficiency
-H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
-Ha : At least one of the means is different from all other groups.
+- City or highway fuel efficiency
+    - H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+    - Ha : At least one of the means is different from all other groups.
 
-Safety rating (test 2 groups at a time company vs. 1 competitor)
-H0 : There is no difference in frequency distribution between both groups.
-Ha : There is a difference in frequency distribution between both groups
+- Safety rating (test 2 groups at a time company vs. 1 competitor)
+    - H0 : There is no difference in frequency distribution between both groups.
+    - Ha : There is a difference in frequency distribution between both groups
 
 **What statistical test would you use to test the hypothesis? And why?**
-ANOVA to test city or highway fuel efficiency (Is there a statistical difference between the distribution means from multiple samples?)
-Chi-Squared test to test safety rating (Is there a difference in categorical frequencies between groups?)
+- ANOVA to test city or highway fuel efficiency (Is there a statistical difference between the distribution means from multiple samples?)
+- Chi-Squared test to test safety rating (Is there a difference in categorical frequencies between groups?)
 
 **What data is needed to run the statistical test?**
-Company name
-Vehicle Class
-City or highway fuel efficiency for each company and product
-Safety rating for each company and product 
+- Company name
+- Vehicle Class
+- City or highway fuel efficiency for each company and product
+- Safety rating for each company and product 
