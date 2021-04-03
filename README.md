@@ -38,3 +38,44 @@
 **Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch**
 
 - p-value is 0.06028; Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the two means are statistically similar
+
+![T-test_All_Lots.png](Resources/T-test_All_lots.PNG)
+
+**Determine if the PSI across each individual manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch**
+
+- For Lot1 the p-value is 1; Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the two means are statistically similar
+
+![T-test_Lot1.png](Resources/T-test_Lot1.PNG)
+
+- For Lot2 the p-value is 0.6072; Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the two means are statistically similar
+
+![T-test_Lot2.png](Resources/T-test_Lot2.PNG)
+
+-For Lot3 the p-value is 0.04168 (less than 0.05); Therefore, we do have sufficient evidence to reject the null hypothesis, and we can state that the two means are statistically different
+
+![T-test_Lot3.png](Resources/T-test_Lot3.PNG)
+
+## Study Design: MechaCar vs Competition
+
+**What metric or metrics are you going to test?**
+city or highway fuel efficiency
+safety rating
+
+**What is the null hypothesis or alternative hypothesis?**
+City or highway fuel efficiency
+H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+Ha : At least one of the means is different from all other groups.
+
+Safety rating (test 2 groups at a time company vs. 1 competitor)
+H0 : There is no difference in frequency distribution between both groups.
+Ha : There is a difference in frequency distribution between both groups
+
+**What statistical test would you use to test the hypothesis? And why?**
+ANOVA to test city or highway fuel efficiency (Is there a statistical difference between the distribution means from multiple samples?)
+Chi-Squared test to test safety rating (Is there a difference in categorical frequencies between groups?)
+
+**What data is needed to run the statistical test?**
+Company name
+Vehicle Class
+City or highway fuel efficiency for each company and product
+Safety rating for each company and product 
