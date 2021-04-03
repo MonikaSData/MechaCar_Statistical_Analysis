@@ -32,3 +32,9 @@
 
 
 ![Lot_Summary_Statistics.png](Resources/Lot_Summary.png)
+
+## T-Tests on Suspension Coils
+
+**Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch**
+
+- p-value is 0.06028; Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the two means are statistically similar
