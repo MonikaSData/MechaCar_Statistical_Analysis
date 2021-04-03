@@ -20,3 +20,4 @@
 
 - Although the multiple linear regression model is predicting well with our current dataset, the lack of significant variables is evidence of overfitting; Overfitting means that the performance of a model performs well with a current dataset, but fails to generalize and predict future data correctly; therefore, more variables that contribute to the variation in mpg should be collected to increase the accuracy of the model;
 
+## Summary Statistics on Suspension Coils
